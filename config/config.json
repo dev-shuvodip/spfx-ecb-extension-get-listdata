@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-ecb-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/customEcb/CustomEcbCommandSet.js",
+          "manifest": "./src/extensions/customEcb/CustomEcbCommandSet.manifest.json"
+        }
+      ]
+    },
+    "consume-dynamic-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/consumeDynamicData/ConsumeDynamicDataWebPart.js",
+          "manifest": "./src/webparts/consumeDynamicData/ConsumeDynamicDataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomEcbCommandSetStrings": "lib/extensions/customEcb/loc/{locale}.js",
+    "ConsumeDynamicDataWebPartStrings": "lib/webparts/consumeDynamicData/loc/{locale}.js"
+  }
+}

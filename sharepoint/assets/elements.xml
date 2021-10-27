@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="CustomEcb"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet"
+        ClientSideComponentId="98ab7d0a-b76e-49c3-9c2d-67a61f86ebbf"
+        ClientSideComponentProperties="{&quot;targetUrl&quot;:&quot;SitePages/Edit-Page.aspx&quot;}">
+    </CustomAction>
+</Elements>
